@@ -98,10 +98,11 @@ ol {
 }
 
 .inner-text {
-  /* text-align: left; */
-  text-indent: 5%;
-  /* text-justify:newspaper; */
-  float: center;
+  text-align: left;
+  text-indent: 0%;
+  display:inline-block;margin-left:3em;
+  display: inline-block;margin-right: 3em;
+  /* float: center; */
   font-family: Arial, Helvetica, sans-serif;
   font-size: medium;
 }
