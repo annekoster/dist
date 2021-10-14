@@ -1,0 +1,25 @@
+<head>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<div class="image-1">
+  <h3>Bedankt!</h3>
+
+  <p class="inner-text">
+    Hallo {{{voornaam}}}, <br /><br />
+    Bedankt voor je aanvraag. We hebben je een link gestuurd voor de reset van
+    je wachtwoord.
+  </p>
+  <!-- 
+First Name: <input name="voornaam" type="text" value="Michael"><br>
+First Name: <input name="voornaam" type="text" value="Doug"> -->
+
+  <button onclick="myFunction()">---</button>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementsByName("voornaam")[0].tagName;
+      document.getElementById("voornaam").innerHTML = x;
+    }
+  </script>
+</div>

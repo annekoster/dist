@@ -1,0 +1,233 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #6eb919a9;
+  text-align: left;
+  padding: 8px;
+}
+
+tr {
+  background-color: #6fb919;
+}
+
+.body {
+  border: 1px solid #fff9f9;
+  text-align: left;
+  padding: 8px;
+  background-color: lightgreen;
+}
+
+p {
+  text-align: left;
+  text-indent: 10px;
+  padding: 0;
+}
+
+b {
+  font-weight: bold;
+  font-size: larger;
+}
+
+ul,
+ol {
+  padding-left: 20px;
+}
+
+.nav-item {
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  /* text-transform:uppercase; */
+  /* position: relative; */
+  display: inline-block;
+  /* vertical-align: middle; */
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  height: auto;
+  display: block;
+  visibility: visible;
+  pointer-events: auto;
+  color: black !important;
+  background-color: transparent !important;
+}
+
+.nav-link {
+  display: table;
+  /* border-style: solid; */
+  /* border-bottom-width: 0; */
+  white-space: nowrap;
+  align-self: flex-start;
+  color: #293332 !important;
+  fill: #293332;
+  border-width: 0px;
+  text-decoration: none;
+}
+
+.capital {
+  text-transform: uppercase;
+  text-align: left;
+  text-indent: 1%;
+}
+
+.whitespace {
+  background-color: white;
+}
+
+.button-style {
+  border-width: 0 0 3px 0;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.shadow {
+  text-shadow: 2px 2px;
+}
+
+.inner-top {
+  font-size: 30px;
+}
+
+.inner-text {
+  /* text-align: left; */
+  text-indent: 5%;
+  /* text-justify:newspaper; */
+  float: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.right {
+  position: absolute;
+  right: 30px;
+  /* width: 300px; */
+  border: 3px solid #73ad21;
+  padding: 10px;
+}
+
+.left {
+  position: absolute;
+  left: 130px;
+  width: 50px;
+  border: 1px solid #73ad21;
+  padding: 3px;
+}
+
+.image-size {
+  width: 200px;
+  height: 100px;
+  align-items: right;
+}
+
+.image-size-icon {
+  width: 80px;
+  height: 50px;
+  align-items: right;
+}
+
+.section-1 .sheet-1 {
+  min-height: 740px;
+}
+
+.section-1 .layout-wrap-1 {
+  margin: 70px 0;
+}
+
+.image-1 {
+  min-height: 610px;
+  background-image: url("images/groen-abstract-2.jpg");
+  background-position: 50% 50%;
+}
+
+.section-1 .container-layout-1 {
+  padding: 30px 60px;
+}
+
+.section-1 .layout-cell-2 {
+  min-height: 305px;
+}
+
+.section-1 .container-layout-2 {
+  padding: 30px 60px;
+}
+
+.section-1 .text-1 {
+  margin: 10;
+}
+
+.section-1 .text-2 {
+  margin: 20px 0 0;
+}
+
+.section-1 .image-2 {
+  min-height: 305px;
+  background-image: url("images/csm_elektrische_auto_stekker.jpg");
+  background-position: 100% 100%;
+}
+
+.section-1 .container-layout-3 {
+  padding: 30px;
+}
+
+@media (max-width: 1199px) {
+  .section-1 .sheet-1 {
+    min-height: 600px;
+  }
+
+  .section-1 .layout-wrap-1 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+@media (max-width: 991px) {
+  .section-1 .container-layout-1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .section-1 .container-layout-2 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-1 .sheet-1 {
+    min-height: 500px;
+  }
+
+  .section-1 .container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .section-1 .layout-cell-2 {
+    min-height: auto;
+  }
+
+  .section-1 .container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .section-1 .container-layout-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+ }
+}
